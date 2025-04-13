@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><!--los items pueden estar solos o agrupados-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/iniciofragment"
+            android:title="@string/inicio" />
+        <item
+            android:id="@+id/perfilfragment"
+            android:title="@string/perfil" />
+        <item
+            android:id="@+id/editarperfilfragment"
+            android:title="@string/editar_perfil" />
+        <item
+            android:id="@+id/categoriasfragment"
+            android:title="@string/categorias" />
+        <item
+            android:id="@+id/carritoFragment"
+            android:title="@string/carrito" />
+        <item
+            android:id="@+id/productosFragment"
+            android:title="@string/productos" />
+    </group>
+
+</menu>

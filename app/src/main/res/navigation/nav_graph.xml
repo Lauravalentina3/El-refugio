@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/iniciofragment">
+
+    <fragment
+        android:id="@+id/iniciofragment"
+        android:name="com.example.tallersegundomomento.fragments.InicioFragment"
+        android:label="@string/inicio" />
+
+    <fragment
+        android:id="@+id/perfilfragment"
+        android:name="com.example.tallersegundomomento.fragments.PerfilFragment"
+        android:label="@string/perfil" />
+
+    <fragment
+        android:id="@+id/editarperfilfragment"
+        android:name="com.example.tallersegundomomento.fragments.EditarPerfilFragment"
+        android:label="@string/editar_perfil" />
+
+    <fragment
+        android:id="@+id/categoriasfragment"
+        android:name="com.example.tallersegundomomento.fragments.CategoriasFragment"
+        android:label="@string/categorias" />
+
+    <fragment
+        android:id="@+id/carritoFragment"
+        android:name="com.example.tallersegundomomento.fragments.CarritoFragment"
+        android:label="@string/carrito" />
+
+    <fragment
+        android:id="@+id/productosFragment"
+        android:name="com.example.tallersegundomomento.fragments.ProductosFragment"
+        android:label="@string/productos" />
+
+    <!-- NUEVOS FRAGMENTS DE CATEGORÍAS -->
+
+    <fragment
+        android:id="@+id/maquillajeFragment"
+        android:name="com.example.tallersegundomomento.fragments.MaquillajeFragment"
+        android:label="Maquillaje" />
+
+    <fragment
+        android:id="@+id/cuidadoFacialFragment"
+        android:name="com.example.tallersegundomomento.fragments.cuidadoFacialFragment"
+        android:label="Cuidado Facial" />
+
+    <fragment
+        android:id="@+id/accesoriosFragment"
+        android:name="com.example.tallersegundomomento.fragments.accesoriosFragment"
+        android:label="Accesorios" />
+
+    <fragment
+        android:id="@+id/perfumeriaFragment"
+        android:name="com.example.tallersegundomomento.fragments.perfumeriaFragment"
+        android:label="Perfumería" />
+
+    <fragment
+        android:id="@+id/unasFragment"
+        android:name="com.example.tallersegundomomento.fragments.unasFragment"
+        android:label="Uñas" />
+</navigation>

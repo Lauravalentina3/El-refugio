@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cuidado Facial"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/negro"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Producto: Limpiador Facial -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/rosado_clarito"
+            android:padding="16dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:elevation="4dp">
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:src="@drawable/limpiador_facial"
+                android:scaleType="centerCrop"
+                android:background="@drawable/imagen_borde_redondo"
+                android:clipToOutline="true"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Limpiador Facial"
+                android:textColor="@color/negro"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Espuma suave con aloe vera"
+                android:textColor="@color/gris_oscuro"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Precio: $28.000"
+                android:textColor="@color/negro" />
+        </LinearLayout>
+
+        <!-- Producto: Mascarilla Detox -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/rosado_clarito"
+            android:padding="16dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:elevation="4dp">
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:src="@drawable/mascarilla"
+                android:scaleType="centerCrop"
+                android:background="@drawable/imagen_borde_redondo"
+                android:clipToOutline="true"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mascarilla Detox"
+                android:textColor="@color/negro"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Elimina impurezas y suaviza la piel"
+                android:textColor="@color/gris_oscuro"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Precio: $35.000"
+                android:textColor="@color/negro" />
+        </LinearLayout>
+
+        <!-- Producto: Crema Hidratante -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/rosado_clarito"
+            android:padding="16dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:elevation="4dp">
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:src="@drawable/crema_hidratante"
+                android:scaleType="centerCrop"
+                android:background="@drawable/imagen_borde_redondo"
+                android:clipToOutline="true"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crema Hidratante"
+                android:textColor="@color/negro"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Humectación profunda para todo tipo de piel"
+                android:textColor="@color/gris_oscuro"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Precio: $42.000"
+                android:textColor="@color/negro" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

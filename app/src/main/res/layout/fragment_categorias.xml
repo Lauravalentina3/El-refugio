@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categorías"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/rosado"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Maquillaje -->
+        <LinearLayout
+            android:id="@+id/categoria_maquillaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/imagen_borde_redondo"
+            android:padding="16dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/maquillaje" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Maquillaje"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/negro" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12 productos"
+                    android:textStyle="bold"
+                    android:textColor="@color/negro" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Base, correctores y más"
+                    android:textSize="12sp"
+                    android:textColor="@color/negro" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Cuidado Facial -->
+        <LinearLayout
+            android:id="@+id/categoria_cuidado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/imagen_borde_redondo"
+            android:padding="16dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:focusable="true">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginEnd="16dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cuidado Facial"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/negro" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8 productos"
+                    android:textStyle="bold"
+                    android:textColor="@color/negro" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Limpieza, hidratación, mascarillas"
+                    android:textSize="12sp"
+                    android:textColor="@color/negro" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/cuidadofacial2" />
+        </LinearLayout>
+
+        <!-- Accesorios -->
+        <LinearLayout
+            android:id="@+id/categoria_accesorios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/imagen_borde_redondo"
+            android:padding="16dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/accesorios" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Accesorios"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/negro" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10 productos"
+                    android:textStyle="bold"
+                    android:textColor="@color/negro" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Collares, bolsos, más"
+                    android:textSize="12sp"
+                    android:textColor="@color/negro" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Perfumería -->
+        <LinearLayout
+            android:id="@+id/categoria_perfumeria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/imagen_borde_redondo"
+            android:padding="16dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:focusable="true">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginEnd="16dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Perfumería"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/negro" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7 productos"
+                    android:textStyle="bold"
+                    android:textColor="@color/negro" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fragancias femeninas y masculinas"
+                    android:textSize="12sp"
+                    android:textColor="@color/negro" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/perfumes" />
+        </LinearLayout>
+
+        <!-- Uñas -->
+        <LinearLayout
+            android:id="@+id/categoria_unas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/imagen_borde_redondo"
+            android:padding="16dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/unas" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Uñas"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/negro" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6 productos"
+                    android:textStyle="bold"
+                    android:textColor="@color/negro" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:text="Esmaltes, decoración y más"
+                    android:textColor="@color/negro"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

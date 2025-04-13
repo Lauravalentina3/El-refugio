@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/productos_unas_titulo"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/negro"
+            android:layout_marginBottom="24dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/rosado_clarito"
+            android:padding="16dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:elevation="4dp">
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/imagen_borde_redondo"
+                android:clipToOutline="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/esmlate_rosado" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/esmalte_rosa_pastel"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/negro"
+                android:layout_marginBottom="4dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/esmalte_descripcion"
+                android:textColor="@color/negro"
+                android:layout_marginBottom="4dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/esmalte_precio"
+                android:textColor="@color/negro"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/rosado_clarito"
+            android:padding="16dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:elevation="4dp">
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:src="@drawable/kit_una"
+                android:scaleType="centerCrop"
+                android:clipToOutline="true"
+                android:background="@drawable/imagen_borde_redondo"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kit_decoracion_titulo"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/negro"
+                android:layout_marginBottom="4dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kit_decoracion_descripcion"
+                android:textColor="@color/negro"
+                android:layout_marginBottom="4dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kit_decoracion_precio"
+                android:textColor="@color/negro"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/rosado_clarito"
+            android:padding="16dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:elevation="4dp">
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:src="@drawable/removedor"
+                android:scaleType="centerCrop"
+                android:clipToOutline="true"
+                android:background="@drawable/imagen_borde_redondo"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/removedor_titulo"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/negro"
+                android:layout_marginBottom="4dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/removedor_descripcion"
+                android:textColor="@color/negro"
+                android:layout_marginBottom="4dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/removedor_precio"
+                android:textColor="@color/negro"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

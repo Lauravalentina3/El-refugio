@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Girly Shop</string>
+    <string name="bienvenida">Bienvenida estrellita\n</string>
+    <string name="inicio">inicio</string>
+    <string name="perfil">perfil</string>
+    <string name="editar_perfil">editar perfil</string>
+    <string name="carrito">carrito</string>
+    <string name="productos">productos</string>
+    <string name="categorias">categorias</string>
+    <string name="inicio_fragment">inicio</string>
+    <string name="inicioFragment">inicio fragment\n</string>
+    <string name="open_drawer">abrir</string>
+    <string name="close_drawer">cerrar</string>
+    <string name="imagenlogo">imagen de logo</string>
+
+    <string name="productos_unas_titulo">Productos para Uñas</string>
+    <string name="esmalte_rosa_pastel">Esmalte Rosa Pastel</string>
+    <string name="esmalte_descripcion">Secado rápido y acabado brillante</string>
+    <string name="esmalte_precio">Precio: $12.000</string>
+    <string name="kit_decoracion_titulo">Kit Decoración Uñas</string>
+    <string name="kit_decoracion_descripcion">Incluye piedras, brillos y pincel</string>
+    <string name="kit_decoracion_precio">Precio: $22.000</string>
+    <string name="removedor_titulo">Removedor sin acetona</string>
+    <string name="removedor_descripcion">Fórmula suave para tus uñas</string>
+    <string name="removedor_precio">Precio: $15.000</string>
+
+    <string name="maquillaje_titulo">Productos de maquillaje</string>
+    <string name="paleta_sombras_titulo">Paleta de Sombras</string>
+    <string name="paleta_sombras_descripcion">Tonos cálidos y fríos para todo tipo de piel</string>
+    <string name="paleta_sombras_precio">Precio: $75.000</string>
+    <string name="labial_rosa_titulo">Labial Matte Rosa</string>
+    <string name="labial_rosa_descripcion">Color intenso, larga duración</string>
+    <string name="labial_rosa_precio">Precio: $32.000</string>
+    <string name="rimel_titulo">Rímel Volumen Total</string>
+    <string name="rimel_descripcion">Realza tus pestañas con volumen y definición</string>
+    <string name="rimel_precio">Precio: $40.000</string>
+
+    <string name="cuidado_facial_titulo">Cuidado Facial</string>
+    <string name="limpiador_facial_titulo">Limpiador Facial</string>
+    <string name="limpiador_facial_descripcion">Espuma suave con aloe vera</string>
+    <string name="limpiador_facial_precio">Precio: $28.000</string>
+    <string name="mascarilla_detox_titulo">Mascarilla Detox</string>
+    <string name="mascarilla_detox_descripcion">Elimina impurezas y suaviza la piel</string>
+    <string name="mascarilla_detox_precio">Precio: $35.000</string>
+    <string name="crema_hidratante_titulo">Crema Hidratante</string>
+    <string name="crema_hidratante_descripcion">Humectación profunda para todo tipo de piel</string>
+    <string name="crema_hidratante_precio">Precio: $42.000</string>
+
+    <string name="accesorios_titulo">Accesorios</string>
+    <string name="collar_corazones_titulo">Collar de Corazones</string>
+    <string name="collar_corazones_descripcion">Baño en oro, ideal para regalo</string>
+    <string name="collar_corazones_precio">Precio: $45.000</string>
+    <string name="pulsera_charms_titulo">Pulsera de Charms</string>
+    <string name="pulsera_charms_descripcion">Ajustable, incluye dije estrella</string>
+    <string name="pulsera_charms_precio">Precio: $25.000</string>
+    <string name="gafas_retro_titulo">Gafas Estilo Retro</string>
+    <string name="gafas_retro_descripcion">Protección UV y marco liviano</string>
+    <string name="gafas_retro_precio">Precio: $30.000</string>
+
+    <string name="perfumeria_titulo">Perfumería</string>
+    <string name="perfume_dulce_rosa_titulo">Perfume Dulce Rosa</string>
+    <string name="perfume_dulce_rosa_descripcion">Aroma floral ideal para el día</string>
+    <string name="perfume_dulce_rosa_precio">Precio: $58.000</string>
+    <string name="aroma_intenso_el_titulo">Aroma Intenso Él</string>
+    <string name="aroma_intenso_el_descripcion">Notas amaderadas y masculinas</string>
+    <string name="aroma_intenso_el_precio">Precio: $62.000</string>
+    <string name="perfume_frutos_rojos_titulo">Perfume Frutos Rojos</string>
+    <string name="perfume_frutos_rojos_descripcion">Mezcla dulce y juvenil</string>
+    <string name="perfume_frutos_rojos_precio">Precio: $49.000</string>
+
+    <string name="carrito_titulo">🛍️ Carrito Girly de Compras</string>
+    <string name="clinique_corrector_titulo">Corrector de Clinique</string>
+    <string name="clinique_corrector_detalle">Detalles del producto</string>
+    <string name="maybelline_corrector_titulo">Corrector de Maybelline</string>
+    <string name="maybelline_corrector_detalle">Detalles del producto</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="resumen">Resumen</string>
+    <string name="pagar_ahora">Pagar ahora</string>
+
+    <string name="perfil_foto_descripcion">Foto de perfil</string>
+    <string name="perfil_cambiar_foto">Cambiar foto</string>
+    <string name="perfil_nombre_hint">Nombre completo</string>
+    <string name="perfil_correo_hint">Correo electrónico</string>
+    <string name="perfil_telefono_hint">Número de teléfono</string>
+    <string name="perfil_guardar_cambios">Guardar Cambios</string>
+
+    <string name="bienvenida_girly_shop">¡Bienvenida a Girly Shop! 💄</string>
+    <string name="bienvenida_info">Aquí encontrarás los mejores productos de belleza, correctores, maquillaje y mucho más. 🌸✨</string>
+
+    <string name="perfil_imagen_descripcion">Imagen de perfil</string>
+    <string name="perfil_nombre_completo">Nombre completo</string>
+    <string name="perfil_correo_electronico">Correo electrónico</string>
+    <string name="perfil_numero_telefono">Número de teléfono</string>
+    <string name="perfil_editar">Editar perfil</string>
+</resources>
